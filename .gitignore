@@ -1,0 +1,11 @@
+# Local AI assistant state. These can hold secrets pasted into approved
+# commands (e.g. passwords in .claude/settings.local.json allow-rules).
+.claude/settings.local.json
+CLAUDE.local.md
+.cursor/mcp.json
+.aider*
+
+# Local secrets, never commit
+.env
+.env.*
+!.env.example
